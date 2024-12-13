@@ -1,0 +1,5 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888 #This means that even if the config server is down or the eureka server does not find it, the service will still start
+  application:
+    name: discovery-server
