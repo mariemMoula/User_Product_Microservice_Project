@@ -11,3 +11,4 @@ spring:
           uri: https://github.com/mariemMoula/User-Product-Config-Repo.git
           clone-on-start: true
           search-paths: '{application}'#This is the path to the configuration files in the git repository which means that the configuration files are stored in the root of the repository.
+          try-master-branch: false
