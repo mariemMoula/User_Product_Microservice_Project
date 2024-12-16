@@ -3,6 +3,7 @@ package com.moulaMeriame.User_microservice.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "users")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Data
 public class User {
 
